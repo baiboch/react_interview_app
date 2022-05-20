@@ -1,16 +1,30 @@
 @import '~bootstrap/scss/bootstrap.scss';
 @import 'config';
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body > #root > .container {
   padding: 60px 15px 0;
 }
 
+body {
+  .container .row {
+    button {
+      background-color: $yellow;
+      color: $primary;
+    }
+  }
+}
+
 .navbar {
   padding: 0.5rem 1rem;
-  background-color: $yellow;
+  background-color: $primary;
 
-  a {
-    color: $primary;
+  span {
+    color: $light;
   }
 }
 
@@ -20,6 +34,6 @@ body > #root > .container {
   width: 100%;
   height: 60px;
   line-height: 60px;
-  background-color: $yellow;
-  color: $primary;
+  background-color: $primary;
+  color: $light;
 }
