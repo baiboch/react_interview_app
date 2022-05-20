@@ -1,4 +1,4 @@
-# Interview React App
+# Interview Participants
 
 ## Available Scripts
 
