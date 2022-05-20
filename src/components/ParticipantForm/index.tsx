@@ -41,11 +41,13 @@ const ParticipantForm: FC<any> = ({addParticipantCallback}) => {
                                 onChange={onChange}
                             />
                         </div>
-                        <button
-                            type="submit"
-                            className="btn btn-primary w-25 mt-2 p-3 rounded-pill border-0 fw-bold">
-                            Add New
-                        </button>
+                        <div className="row justify-content-center">
+                            <button
+                                type="submit"
+                                className="btn btn-primary w-50 mt-2 p-3 rounded-pill border-0 fw-bold">
+                                Submit
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
