@@ -1,0 +1,25 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import 'config';
+
+body > #root > .container {
+  padding: 60px 15px 0;
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+  background-color: $yellow;
+
+  a {
+    color: $primary;
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: $yellow;
+  color: $primary;
+}
