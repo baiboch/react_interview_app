@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 import ParticipantList from '../components/ParticipantList';
 import ParticipantForm from '../components/ParticipantForm';
 
-
 function App() {
     const [participants, setParticipant] = useState<ParticipantModel[]>([]);
     async function addNewParticipantCallback(data: ParticipantModel) {
