@@ -36,6 +36,7 @@ const ParticipantForm: FC<any> = ({addParticipantCallback}) => {
                                 className="form-control"
                                 id="participantAgeInput"
                                 placeholder="Age... (digits only)"
+                                min={1}
                                 max={100}
                                 required
                                 onChange={onChange}
